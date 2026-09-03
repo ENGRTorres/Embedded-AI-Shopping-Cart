@@ -1,0 +1,20 @@
+{
+  "boston_tea_party_tea_earl": {
+    "ai_ready": true,
+    "enabled": true,
+    "name": "Boston Tea Party Commemorative Earl Grey",
+    "price_cents": 500
+  },
+  "polar_seltzer_lime": {
+    "ai_ready": true,
+    "enabled": true,
+    "name": "Polar Seltzer Lime",
+    "price_cents": 199
+  },
+  "polar_seltzer_rasp_lime": {
+    "ai_ready": true,
+    "enabled": true,
+    "name": "Polar Seltzer Raspberry/Lime",
+    "price_cents": 199
+  }
+}

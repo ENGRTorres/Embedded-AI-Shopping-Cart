@@ -143,7 +143,7 @@ class EdgeImpulseCppScanner(Scanner):
         Steps:
         - drop alpha channel (Picamera2 often gives XBGR8888 -> 4 channels)
         - convert to RGB
-        - resize to 96x96 (your model input size)
+        - resize to 96x96 (the model input size)
         - normalize to [0..1]
         - quantize to int8 using the model's TRUE in_scale/in_zero (best accuracy)
         """

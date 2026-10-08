@@ -83,7 +83,7 @@ class EdgeImpulseCppScanner(Scanner):
     def _load_quant_params_from_runner(self):
         """
         Ask the C++ runner to print the model's quantization parameters.
-        Requires your C++ program to support:
+        Requires C++ program to support:
             ./tflite_infer --print-quant model.tflite
 
         Expected output lines:
